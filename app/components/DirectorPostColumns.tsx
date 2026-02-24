@@ -144,9 +144,7 @@ export function DirectorPostColumns({ sections }: { sections: DirectorSection[] 
     const observer = new ResizeObserver((entries) => {
       const entry = entries[0];
       if (entry?.contentBoxSize) {
-        const blockSize = Array.isArray(entry.contentBoxSize)
-          ? entry.contentBoxSize[0].blockSize
-          : entry.contentBoxSize.blockSize;
+        const blockSize = entry.contentBoxSize[0]?.blockSize;
         setContainerHeight(blockSize ?? el.clientHeight);
       } else {
         setContainerHeight(el.clientHeight);
