@@ -7,354 +7,444 @@
     "color_title_bg": "#064AA4",
     "data_waiting": [
       {
-        "vin": "Х0Т944500T0001144",
+        "vin": "Х0Т978610T0004583",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260119-0400-2174/10",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
+        "date": "24 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007648",
+        "vin": "Х0Т978550T0000371",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260203-0400-0083/01",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
+        "date": "18 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978550T0000372",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260203-0400-0083/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "17 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T978550T0000373",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260203-0400-0083/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "17 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T978550T0000374",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260203-0400-0083/04",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "17 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т988800T0007654",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260216-0300-0077/02",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "SPM160036",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007653",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
+        "date": "9 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т988800T0007651",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260225-0300-0043/01",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "5 дн. 14 ч.",
+        "date": "9 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007646",
+        "vin": "Х0Т944500T0001144",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260302-0500-2175/08",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007647",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998830T0000287",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998830T0000286",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001921",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998800T4000038",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998800T4000039",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998800T4000040",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998800T4000041",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т959400T0000573",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
+        "date": "9 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т959900T2000227",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260227-0200-0058/05",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
+        "date": "8 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "SPM160037",
+        "vin": "Х0Т959400T0000573",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260227-0200-0029/01",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007644",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001920",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
+        "date": "4 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т959400T0000574",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260227-0200-0029/02",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т978820T0003436",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т978820T0003435",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "4 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007649",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001922",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001925",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007650",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998940T1000003",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007645",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007656",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001926",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998940T1000002",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "4 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т998940T1000004",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260220-0500-0090/04",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "4 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
         "vin": "Х0Т998940T1000006",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260220-0500-0090/01",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "4 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т958930T0001924",
+        "vin": "Х0Т988800T0007648",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260224-0300-0042/03",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "3 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т958930T0001923",
+        "vin": "Х0Т998940T1000005",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260220-0500-0090/05",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "2 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т944500T0001147",
+        "vin": "Х0Т978830T0000593",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260114-0300-2226/01",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "2 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т944500T0001148",
+        "vin": "Х0Т978830T0000594",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260220-0300-0076/02",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "2 дн. 9 ч.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007655",
+        "vin": "Х0Т998940T1000007",
         "color_vin_font": "#FFFFFF",
-        "order_number": "",
+        "order_number": "260220-0500-0090/06",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 дн. 14 ч.",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т998940T1000008",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0500-0090/07",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001149",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260212-0500-0018/04",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т998940T1000009",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0500-0090/08",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001150",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260219-0500-0032/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001151",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260219-0500-0032/05",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001152",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260219-0500-0032/06",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т982700T1000082",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260302-0600-0065/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978610T0004584",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260212-0400-0033/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978610T0004585",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260212-0400-0033/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978610T0004586",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260212-0400-0033/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978610T0004587",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260212-0400-0033/04",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т988800T0007657",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260216-0300-0077/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т988800T0007658",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260216-0300-0077/04",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T959400T0000575",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260227-0200-0030/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988820T0001687",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260316-0600-0109/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007659",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260216-0300-0077/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007660",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260216-0300-0077/05",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T978830T0000599",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260217-0300-2178/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T978830T0000600",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260217-0300-2178/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001153",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260219-0500-0032/07",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T944500T0001154",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260219-0500-0032/08",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007661",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0300-2121/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007662",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0300-2121/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007663",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260225-0300-0043/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007664",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260226-0300-0044/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007665",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260226-0300-0044/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "X0T988800T0007666",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260226-0300-0044/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978830T0000595",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260114-0300-2226/02",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978830T0000596",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0300-0076/01",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978830T0000597",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0300-0076/03",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978830T0000598",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0300-0076/04",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "1 дн. 9 ч.",
         "color_date": "#FFC300"
       }
     ],
@@ -365,7 +455,44 @@
     "title": "СВАРКА/ПРОВАРКА",
     "color_title_font": "#FFFFFF",
     "color_title_bg": "#064AA4",
-    "data_waiting": [],
+    "data_waiting": [
+      {
+        "vin": "Х0Т998940T1000002",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0500-0090/002",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "2 ч. 39 мин.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "SPM160037",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "251226-0200-2181/002",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "00 ч. 44 мин.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978820T0003433",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260210-0300-0088/003",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "00 ч. 13 мин.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т998940T1000003",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260220-0500-0090/003",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "00 ч. 12 мин.",
+        "color_date": "#FFC300"
+      }
+    ],
     "data_started": [],
     "data_finished": []
   },
@@ -373,7 +500,26 @@
     "title": "ЗАЧИСТКА",
     "color_title_font": "#FFFFFF",
     "color_title_bg": "#064AA4",
-    "data_waiting": [],
+    "data_waiting": [
+      {
+        "vin": "Х0Т978820T0003436",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260227-0300-0045/002",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "00 ч. 47 мин.",
+        "color_date": "#FFC300"
+      },
+      {
+        "vin": "Х0Т978820T0003432",
+        "color_vin_font": "#FFFFFF",
+        "order_number": "260210-0300-0088/001",
+        "color_order_number": "#92A2E3",
+        "color_box": "#FFC300",
+        "date": "00 ч. 18 мин.",
+        "color_date": "#FFC300"
+      }
+    ],
     "data_started": [],
     "data_finished": []
   },
@@ -383,48 +529,30 @@
     "color_title_bg": "#064AA4",
     "data_waiting": [
       {
-        "vin": "Х0Т958930T0001917",
+        "vin": "Х0Т959900T2000226",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/011",
+        "order_number": "260227-0200-0058/004",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "2 ч. 16 мин.",
+        "date": "19 ч. 4 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т958930T0001918",
+        "vin": "SPM160036",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/012",
+        "order_number": "251226-0200-2181/001",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "00 ч. 51 мин.",
+        "date": "00 ч. 13 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007643",
+        "vin": "Х0Т944500T0001146",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260223-0300-0041/002",
+        "order_number": "260212-0500-0018/003",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "00 ч. 51 мин.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т958930T0001919",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/013",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 20 мин.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т988800T0007641",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260213-0300-0049/001",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 11 мин.",
+        "date": "00 ч. 4 мин.",
         "color_date": "#FFC300"
       }
     ],
@@ -435,17 +563,7 @@
     "title": "ПРОМАЗКА",
     "color_title_font": "#FFFFFF",
     "color_title_bg": "#064AA4",
-    "data_waiting": [
-      {
-        "vin": "Х0Т998810T2000063",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260209-0500-0023/012",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 13 мин.",
-        "color_date": "#FFC300"
-      }
-    ],
+    "data_waiting": [],
     "data_started": [],
     "data_finished": []
   },
@@ -453,26 +571,7 @@
     "title": "ГРУНТОВАНИЕ",
     "color_title_font": "#FFFFFF",
     "color_title_bg": "#064AA4",
-    "data_waiting": [
-      {
-        "vin": "Х0Т988800T0007640",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260213-0300-0051/005",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 42 мин.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т998810T2000062",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260209-0500-0023/011",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 27 мин.",
-        "color_date": "#FFC300"
-      }
-    ],
+    "data_waiting": [],
     "data_started": [],
     "data_finished": []
   },
@@ -490,57 +589,48 @@
     "color_title_bg": "#064AA4",
     "data_waiting": [
       {
-        "vin": "BS1700015",
+        "vin": "Х0Т958930T0001926",
         "color_vin_font": "#FFFFFF",
-        "order_number": "250205-0600-0071/002",
+        "order_number": "260212-0200-0087/020",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "4 дн. 5 ч.",
+        "date": "18 ч. 58 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "BP1500108",
+        "vin": "Х0Т958930T0001924",
         "color_vin_font": "#FFFFFF",
-        "order_number": "251226-0600-2182/002",
+        "order_number": "260212-0200-0087/018",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "2 дн. 19 ч.",
+        "date": "16 ч. 46 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007638",
+        "vin": "Х0Т998830T0000287",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260213-0300-0040/001",
+        "order_number": "260226-0500-0098/001",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "3 ч. 11 мин.",
+        "date": "14 ч. 8 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т988800T0007639",
+        "vin": "Х0Т998830T0000286",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260213-0300-0051/004",
+        "order_number": "260216-0500-0080/001",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "2 ч. 34 мин.",
+        "date": "13 ч. 34 мин.",
         "color_date": "#FFC300"
       },
       {
-        "vin": "Х0Т944500T0001130",
+        "vin": "Х0Т958930T0001921",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0500-0018/001",
+        "order_number": "260212-0200-0087/015",
         "color_order_number": "#92A2E3",
         "color_box": "#FFC300",
-        "date": "00 ч. 56 мин.",
-        "color_date": "#FFC300"
-      },
-      {
-        "vin": "Х0Т959900T2000223",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260227-0200-0058/001",
-        "color_order_number": "#92A2E3",
-        "color_box": "#FFC300",
-        "date": "00 ч. 24 мин.",
+        "date": "00 ч. 27 мин.",
         "color_date": "#FFC300"
       }
     ],
@@ -555,102 +645,30 @@
     "data_started": [],
     "data_finished": [
       {
-        "vin": "Х0Т998810T2000060",
+        "vin": "Х0Т988800T0007655",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260209-0500-0023/009",
+        "order_number": "260216-0300-2176/004",
         "color_order_number": "#92A2E3",
         "color_box": "#66DE4F",
-        "date": "27 дн. 23 ч.",
+        "date": "70 дн. 23 ч.",
         "color_date": "#66DE4F"
       },
       {
-        "vin": "Х0Т988800T0007637",
+        "vin": "Х0Т978820T0003435",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0300-0037/005",
+        "order_number": "260227-0300-0045/001",
         "color_order_number": "#92A2E3",
         "color_box": "#66DE4F",
-        "date": "26 дн. 22 ч.",
+        "date": "30 дн. 16 ч.",
         "color_date": "#66DE4F"
       },
       {
-        "vin": "Х0Т958930T0001916",
+        "vin": "Х0Т988800T0007656",
         "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/010",
+        "order_number": "260216-0300-2176/005",
         "color_order_number": "#92A2E3",
         "color_box": "#66DE4F",
-        "date": "17 дн. 21 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т978820T0003431",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260210-0300-0088/002",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "17 дн. 00 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т958930T0001914",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/008",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "17 дн. 21 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т944500T0001143",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260219-0500-0032/001",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "27 дн. 2 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т988800T0007635",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260223-0300-0041/001",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "26 дн. 21 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т988800T0007636",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0300-0037/004",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "26 дн. 22 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т958930T0001915",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260212-0200-0087/009",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "17 дн. 21 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т998810T2000061",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260209-0500-0023/010",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "27 дн. 23 ч.",
-        "color_date": "#66DE4F"
-      },
-      {
-        "vin": "Х0Т959900T2000222",
-        "color_vin_font": "#FFFFFF",
-        "order_number": "260226-0200-0055/003",
-        "color_order_number": "#92A2E3",
-        "color_box": "#66DE4F",
-        "date": "25 дн. 23 ч.",
+        "date": "70 дн. 23 ч.",
         "color_date": "#66DE4F"
       }
     ]

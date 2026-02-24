@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap");
 
 :root {
   --background: #0c1222;
@@ -25,4 +24,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-golos);
+}
+
+.department-loop-vertical {
+  animation-name: department-loop-vertical;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes department-loop-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-1 * var(--department-loop-distance)));
+  }
 }

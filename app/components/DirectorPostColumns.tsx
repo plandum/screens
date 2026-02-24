@@ -34,7 +34,7 @@ function takeUpTo(
   const s = section.data_started;
   const f = section.data_finished;
 
-  let takeW = Math.min(w.length, needRows);
+  const takeW = Math.min(w.length, needRows);
   let takeS = 0;
   let takeF = 0;
   let taken = takeW;

@@ -127,16 +127,14 @@ export function DirectorSectionCard({ section }: { section: DirectorSection }) {
           </div>
           <h2
             className="text-white flex-1 truncate"
-            style={{ ...golosStyle, fontSize: 24, lineHeight: "18px" }}
+            style={{ ...golosStyle, fontSize: 24, lineHeight: "28px" }}
           >
-            {section.title.toUpperCase().includes("СОБРАНО СЕГОДНЯ")
-              ? "Готовая продукция"
-              : section.title}
+            {section.title}
           </h2>
           {totalCount > 0 && (
             <span
               className="text-white tabular-nums"
-              style={{ ...golosStyle, fontSize: 24, lineHeight: "18px" }}
+              style={{ ...golosStyle, fontSize: 24, lineHeight: "28px" }}
             >
               {totalCount}
             </span>
