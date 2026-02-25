@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
+import { AutoRefresh } from "@/app/components/AutoRefresh";
 import { DepartmentVerticalScreen } from "@/app/components/DepartmentVerticalScreen";
 import { adaptDirectorData } from "@/app/data/adaptDirectorData";
-
-import rawData from "../../../test.json";
+import { getDirectorScreenData } from "@/app/data/directorApi";
 
 type PageProps = {
   params: Promise<{ tab: string }>;
@@ -23,6 +23,7 @@ export default async function DepartmentByTabPage({ params }: PageProps) {
     notFound();
   }
 
+  const rawData = await getDirectorScreenData();
   const sections = adaptDirectorData(rawData);
   const section = sections[tabNumber - 1];
 
@@ -30,10 +31,12 @@ export default async function DepartmentByTabPage({ params }: PageProps) {
     notFound();
   }
 
-  const pageBg =
-    typeof rawData === "object" && rawData !== null && "color_bg" in rawData
-      ? getScreenBg((rawData as { color_bg?: string }).color_bg)
-      : "#001A37";
+  const pageBg = getScreenBg(rawData.color_bg);
 
-  return <DepartmentVerticalScreen section={section} pageBg={pageBg} />;
+  return (
+    <>
+      <AutoRefresh />
+      <DepartmentVerticalScreen section={section} pageBg={pageBg} />
+    </>
+  );
 }

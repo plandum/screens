@@ -16,6 +16,15 @@ const golosStyle = {
 /** дн. → д, ч. → ч, "N ч. M мин." → "N:M" */
 function formatDate(dateStr: string): string {
   let s = dateStr.replace(/дн\./g, "д").replace(/ч\./g, "ч");
+
+  const hourColonMinMatch = s.match(/^(\d+)\s*ч:(\d{1,2})$/);
+  if (hourColonMinMatch) {
+    const hours = Number.parseInt(hourColonMinMatch[1], 10);
+    const mins = Number.parseInt(hourColonMinMatch[2], 10);
+    if (hours === 0) return `${mins} м`;
+    return `${hours}:${hourColonMinMatch[2].padStart(2, "0")}`;
+  }
+
   const match = s.match(/^(\d+)\s*ч\s*(\d+)\s*мин\.?$/);
   if (match) {
     const mins = match[2].padStart(2, "0");

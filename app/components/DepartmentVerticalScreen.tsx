@@ -59,6 +59,16 @@ function formatDate(date: string): string {
 function splitDateColumns(date: string): { middle: string; right: string } {
   const normalized = formatDate(date);
 
+  const hourColonMinMatch = normalized.match(/^(\d+)\s*ч:(\d{1,2})$/);
+  if (hourColonMinMatch) {
+    const hours = Number.parseInt(hourColonMinMatch[1], 10);
+    const mins = Number.parseInt(hourColonMinMatch[2], 10);
+    if (hours === 0) {
+      return { middle: "", right: `${mins} м` };
+    }
+    return { middle: "", right: `${hours}:${hourColonMinMatch[2].padStart(2, "0")}` };
+  }
+
   const timeMatch = normalized.match(/(.*)\s(\d{1,2}:\d{2})$/);
   if (timeMatch) {
     return { middle: timeMatch[1].trim(), right: timeMatch[2] };

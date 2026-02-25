@@ -1,15 +1,9 @@
 import { DirectorPostColumns } from "./components/DirectorPostColumns";
 import { DirectorSectionCard } from "./components/DirectorSectionCard";
+import { AutoRefresh } from "./components/AutoRefresh";
 import { adaptDirectorData } from "./data/adaptDirectorData";
+import { getDirectorScreenData } from "./data/directorApi";
 import type { DirectorSection } from "./types/director";
-
-import rawData from "../test.json";
-
-const sections = adaptDirectorData(rawData);
-const pageBg =
-  typeof rawData === "object" && rawData !== null && "color_bg" in rawData
-    ? (rawData as { color_bg?: string }).color_bg
-    : "#041221";
 
 /** Секции «готовая продукция» / «собрано сегодня» — 4-й ряд целиком */
 function isFinishedProductSection(s: DirectorSection): boolean {
@@ -17,12 +11,17 @@ function isFinishedProductSection(s: DirectorSection): boolean {
   return t.includes("СОБРАНО") || t.includes("ГОТОВАЯ ПРОДУКЦИЯ");
 }
 
-export default function DirectorScreen() {
+export default async function DirectorScreen() {
+  const rawData = await getDirectorScreenData();
+  const sections = adaptDirectorData(rawData);
+  const pageBg = rawData.color_bg ?? "#041221";
+
   const postSections = sections.filter((s) => !isFinishedProductSection(s));
   const finishedSections = sections.filter((s) => isFinishedProductSection(s));
 
   return (
     <div className="h-screen w-screen overflow-hidden text-white p-6 box-border" style={{ backgroundColor: pageBg }}>
+      <AutoRefresh />
       <h1 className="sr-only">Экран директора</h1>
       <div className="h-full w-full grid grid-cols-1 lg:grid-cols-4 gap-0 overflow-hidden min-w-0">
         {/* Колонки 1–3: посты (одна ячейка на 3 колонки, внутри — 3 колонки контента) */}
