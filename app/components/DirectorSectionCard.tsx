@@ -185,8 +185,8 @@ export function DirectorSectionCard({
     <article
       className={
         fillHeight
-          ? "rounded-[8px] overflow-hidden bg-[#020814] border border-[#111827] shadow-[0_0_12px_rgba(0,0,0,0.6)] flex flex-col h-full min-h-0"
-          : "rounded-[8px] overflow-hidden bg-[#020814] border border-[#111827] shadow-[0_0_12px_rgba(0,0,0,0.6)]"
+          ? "rounded-[8px] overflow-hidden border border-[#111827] flex flex-col h-full min-h-0"
+          : "rounded-[8px] overflow-hidden border border-[#111827]"
       }
     >
       {!noHeader && (
