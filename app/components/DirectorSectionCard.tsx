@@ -1,6 +1,7 @@
 "use client";
 
 import type { DirectorItem, DirectorSection } from "@/app/types/director";
+import type { DirectorFooterStats } from "@/app/types/director";
 
 function hexToStyle(hex: string, prefix = "#") {
   const value = hex.startsWith("#") ? hex : `${prefix}${hex}`;
@@ -109,7 +110,66 @@ function ItemList({
   );
 }
 
-export function DirectorSectionCard({ section }: { section: DirectorSection }) {
+function formatPercent(value?: number): string {
+  if (value === undefined || !Number.isFinite(value)) return "—";
+  return `${value.toLocaleString("ru-RU", { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%`;
+}
+
+function formatCount(value?: number): string {
+  if (value === undefined || !Number.isFinite(value)) return "—";
+  return Math.round(value).toLocaleString("ru-RU");
+}
+
+function FooterStats({ stats }: { stats: DirectorFooterStats }) {
+  return (
+    <footer className="px-4 pb-4">
+      <div className="rounded-[12px] bg-[#263b2e] px-6 py-5 shadow-[0_0_12px_rgba(0,0,0,0.35)]">
+        <div className="flex items-baseline gap-4">
+          <span style={{ ...golosStyle, fontSize: 18, lineHeight: "22px", color: "#E6EEF6" }}>
+            Выполнено за день
+          </span>
+          <span className="ml-auto tabular-nums whitespace-nowrap" style={{ ...golosStyle, fontSize: 22, lineHeight: "24px", color: "#FF8A00" }}>
+            {formatPercent(stats.doneDayPercent)}
+          </span>
+          <span className="tabular-nums whitespace-nowrap" style={{ ...golosStyle, fontSize: 22, lineHeight: "24px", color: "#E6EEF6" }}>
+            {formatCount(stats.doneDay)}
+          </span>
+        </div>
+
+        <div className="mt-2 flex items-baseline gap-4">
+          <span style={{ ...golosStyle, fontSize: 18, lineHeight: "22px", color: "#E6EEF6" }}>
+            Выполнено за месяц
+          </span>
+          <span className="ml-auto tabular-nums whitespace-nowrap" style={{ ...golosStyle, fontSize: 22, lineHeight: "24px", color: "#B7F71C" }}>
+            {formatPercent(stats.doneMonthPercent)}
+          </span>
+          <span className="tabular-nums whitespace-nowrap" style={{ ...golosStyle, fontSize: 22, lineHeight: "24px", color: "#E6EEF6" }}>
+            {formatCount(stats.doneMonth)}
+          </span>
+        </div>
+
+        <div className="mt-2 flex items-baseline gap-4">
+          <span style={{ ...golosStyle, fontSize: 18, lineHeight: "22px", color: "#E6EEF6" }}>
+            План
+          </span>
+          <span className="ml-auto tabular-nums whitespace-nowrap" style={{ ...golosStyle, fontSize: 22, lineHeight: "24px", color: "#E6EEF6" }}>
+            {formatCount(stats.plan)}
+          </span>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export function DirectorSectionCard({
+  section,
+  fillHeight = false,
+  footerStats,
+}: {
+  section: DirectorSection;
+  fillHeight?: boolean;
+  footerStats?: DirectorFooterStats;
+}) {
   const noHeader = !section.title || section.title.trim() === "";
   const isReadyProduct = section.title.toUpperCase().includes("СОБРАНО СЕГОДНЯ");
   const headerBg = isReadyProduct
@@ -122,7 +182,13 @@ export function DirectorSectionCard({ section }: { section: DirectorSection }) {
       section.data_finished.length;
 
   return (
-    <article className="rounded-[8px] overflow-hidden bg-[#020814] border border-[#111827] shadow-[0_0_12px_rgba(0,0,0,0.6)]">
+    <article
+      className={
+        fillHeight
+          ? "rounded-[8px] overflow-hidden bg-[#020814] border border-[#111827] shadow-[0_0_12px_rgba(0,0,0,0.6)] flex flex-col h-full min-h-0"
+          : "rounded-[8px] overflow-hidden bg-[#020814] border border-[#111827] shadow-[0_0_12px_rgba(0,0,0,0.6)]"
+      }
+    >
       {!noHeader && (
         <header
           className="flex items-center gap-3 px-4 h-11"
@@ -150,11 +216,14 @@ export function DirectorSectionCard({ section }: { section: DirectorSection }) {
           )}
         </header>
       )}
-      <div className={noHeader ? "pt-1 pb-1 bg-[#020814]" : "py-1 bg-[#020814]"}>
-        <ItemList items={section.data_waiting} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
-        <ItemList items={section.data_started} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
-        <ItemList items={section.data_finished} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
+      <div className={fillHeight ? "flex-1 min-h-0" : undefined}>
+        <div className={`${noHeader ? "pt-1 pb-1" : "py-1"} bg-[#020814]${fillHeight ? " overflow-auto" : ""}`}>
+          <ItemList items={section.data_waiting} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
+          <ItemList items={section.data_started} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
+          <ItemList items={section.data_finished} sectionVinColor={section.vin_color ?? "#FFFFFF"} />
+        </div>
       </div>
+      {footerStats ? <FooterStats stats={footerStats} /> : null}
     </article>
   );
 }

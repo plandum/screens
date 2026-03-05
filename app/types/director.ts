@@ -51,3 +51,11 @@ export interface DirectorScreenDataRoot {
 }
 
 export type DirectorScreenData = DirectorSection[];
+
+export type DirectorFooterStats = {
+  doneDay?: number;
+  doneDayPercent?: number;
+  doneMonth?: number;
+  doneMonthPercent?: number;
+  plan?: number;
+};
