@@ -3,7 +3,7 @@ import { AutoRefresh } from "@/app/components/AutoRefresh";
 import { DirectorApiErrorState } from "@/app/components/DirectorApiErrorState";
 import { DepartmentVerticalScreen } from "@/app/components/DepartmentVerticalScreen";
 import { adaptDirectorData } from "@/app/data/adaptDirectorData";
-import { getDirectorScreenData } from "@/app/data/directorApi";
+import { getDirectorApiErrorView, getDirectorScreenData } from "@/app/data/directorApi";
 
 type PageProps = {
   params: Promise<{ tab: string }>;
@@ -29,7 +29,8 @@ export default async function DepartmentByTabPage({ params }: PageProps) {
     rawData = await getDirectorScreenData();
   } catch (error) {
     console.error("Department screen data fetch failed", error);
-    return <DirectorApiErrorState error={error} />;
+    const view = getDirectorApiErrorView(error);
+    return <DirectorApiErrorState title={view.title} detail={view.detail} />;
   }
   const sections = adaptDirectorData(rawData);
   const section = sections[tabNumber - 1];

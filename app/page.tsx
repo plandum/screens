@@ -4,7 +4,7 @@ import { AutoRefresh } from "./components/AutoRefresh";
 import { DirectorApiErrorState } from "./components/DirectorApiErrorState";
 import { adaptDirectorData } from "./data/adaptDirectorData";
 import { extractDirectorFooterStats } from "./data/extractDirectorFooterStats";
-import { getDirectorScreenData } from "./data/directorApi";
+import { getDirectorApiErrorView, getDirectorScreenData } from "./data/directorApi";
 import type { DirectorSection } from "./types/director";
 
 /** Секции «готовая продукция» / «собрано сегодня» — 4-й ряд целиком */
@@ -19,7 +19,8 @@ export default async function DirectorScreen() {
     rawData = await getDirectorScreenData();
   } catch (error) {
     console.error("Director screen data fetch failed", error);
-    return <DirectorApiErrorState error={error} />;
+    const view = getDirectorApiErrorView(error);
+    return <DirectorApiErrorState title={view.title} detail={view.detail} />;
   }
 
   const sections = adaptDirectorData(rawData);
