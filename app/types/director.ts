@@ -34,7 +34,10 @@ export interface DirectorSectionRaw {
 }
 
 /** Секция для рендера (с подставленными order_color, vin_color для шапки) */
-export interface DirectorSection extends DirectorSectionRaw {
+export interface DirectorSection extends Omit<DirectorSectionRaw, "data_waiting" | "data_started" | "data_finished"> {
+  data_waiting: DirectorItem[];
+  data_started: DirectorItem[];
+  data_finished: DirectorItem[];
   /** Цвет кружка в шапке (берётся из первого item или дефолт) */
   order_color?: string;
   /** Цвет шрифта VIN (берётся из первого item или дефолт) */
