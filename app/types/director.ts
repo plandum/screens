@@ -28,9 +28,9 @@ export interface DirectorSectionRaw {
   title: string;
   color_title_font: string;
   color_title_bg: string;
-  data_waiting: DirectorItem[];
-  data_started: DirectorItem[];
-  data_finished: DirectorItem[];
+  data_waiting?: DirectorItem[];
+  data_started?: DirectorItem[];
+  data_finished?: DirectorItem[];
 }
 
 /** Секция для рендера (с подставленными order_color, vin_color для шапки) */

@@ -33,10 +33,17 @@ export function adaptDirectorData(data: unknown): DirectorSection[] {
 }
 
 function rawToSection(raw: DirectorSectionRaw): DirectorSection {
+  const data_waiting = Array.isArray(raw.data_waiting) ? raw.data_waiting : [];
+  const data_started = Array.isArray(raw.data_started) ? raw.data_started : [];
+  const data_finished = Array.isArray(raw.data_finished) ? raw.data_finished : [];
   const firstItem =
-    raw.data_waiting[0] ?? raw.data_started[0] ?? raw.data_finished[0];
+    data_waiting[0] ?? data_started[0] ?? data_finished[0];
+
   return {
     ...raw,
+    data_waiting,
+    data_started,
+    data_finished,
     order_color: firstItem?.color_order_number ?? DEFAULT_ORDER_COLOR,
     vin_color: firstItem?.color_vin_font ?? DEFAULT_VIN_COLOR,
   };
